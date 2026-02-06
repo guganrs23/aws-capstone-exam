@@ -1,3 +1,4 @@
 variable "key_name" {
-  default = "your-key-name"
+  description = "EC2 Key Pair name"
+  type        = string
 }
